@@ -14,15 +14,19 @@ Fonts / Colors
 
  h2 {
    font-size: 32px;
+   margin-bottom: 8px;
  }
  h3 {
    font-size: 28px;
+   margin-bottom: 8px;
  }
  h4 {
    font-size: 24px;
+   margin-bottom: 8px;
  }
  h5 {
    font-size: 22px ;
+   margin-bottom: 8px;
  }
 
  .light-s-s {
@@ -98,6 +102,10 @@ Fonts / Colors
    font-weight: lighter;
  }
 
+.colorWhite {
+  color: #FFF;
+}
+
 .colorNightDark {
   color: #363636;
 }
@@ -146,9 +154,6 @@ Fonts / Colors
 .colorHoney {
   color: #F6E9DC;
 }
-
-
-
 
 
 
@@ -212,6 +217,10 @@ Custom Margins / Paddings
 
 .pT25 {
   padding-top: 25px;
+}
+
+.p25 {
+  padding: 25px;
 }
 
 .pT32 {
@@ -467,4 +476,8 @@ a {
 .articleHead {
   overflow: hidden;
   height: 274px;
+}
+
+.newsletterBox {
+  margin-top: 60px;
 }

@@ -1,0 +1,470 @@
+body {
+  font-family: 'Source Sans Pro', sans-serif !important;
+    font-size: 14px;
+    line-height: 1.2;
+    color: #363636;;
+}
+
+/*
+=================================================================
+Fonts / Colors
+=================================================================
+*/
+
+
+ h2 {
+   font-size: 32px;
+ }
+ h3 {
+   font-size: 28px;
+ }
+ h4 {
+   font-size: 24px;
+ }
+ h5 {
+   font-size: 22px ;
+ }
+
+ .light-s-s {
+   font-size: 12px;
+   font-weight: 300;
+ }
+
+ .light-s-ml {
+   font-size: 14px;
+   font-weight: 300;
+ }
+
+ .light-b-s {
+   font-size: 16px;
+   font-weight: 300;
+ }
+
+ .light-b-ml {
+   font-size: 18px;
+   font-weight: 300;
+ }
+
+ .light-l-s {
+   font-size: 20px;
+   font-weight: 300;
+ }
+
+ .light-l-ml {
+   font-size: 22px;
+   font-weight: 300;
+ }
+
+ .reg-l-ml {
+   font-size: 22px;
+   font-weight: 400;
+ }
+
+ .reg-l-s {
+   font-size: 20px;
+   font-weight: 400;
+ }
+
+ .reg-b-ml {
+   font-size: 18px;
+   font-weight: 400;
+ }
+
+ .reg-b-s {
+   font-size: 16px;
+   font-weight: 400;
+ }
+
+ .reg-s-ml {
+   font-size: 14px;
+   font-weight: 400;
+ }
+
+ .reg-s-s {
+   font-size: 12px;
+   font-weight: 400;
+ }
+
+ .price-s {
+   font-size: 28px;
+ }
+
+ .price-ml {
+   font-size: 32px;
+ }
+
+ .quote {
+   font-size: 36px;
+   font-weight: lighter;
+ }
+
+.colorNightDark {
+  color: #363636;
+}
+
+
+.colorNightBase {
+  color: #6F7675;
+}
+
+.colorNightLight {
+  color: #C6CBCC;
+}
+
+.colorNight {
+  color: #F8F8F8;
+}
+
+.colorForestDark {
+  color: #1C4247;
+}
+
+.colorForestBase {
+  color: #295F67;
+}
+
+.colorForestLight {
+  color: #A0BABD;
+}
+
+.colorForestBackground {
+  color: #E8F2F4;
+}
+
+.colorHoneyDark {
+  color: #9B5209;
+}
+
+.colorHoneyBase {
+  color: #D67B1F;
+}
+
+.colorHoneyLight {
+  color: #EABD8F;
+}
+
+.colorHoney {
+  color: #F6E9DC;
+}
+
+
+
+
+
+
+/*
+=================================================================
+Custom Margins / Paddings
+=================================================================
+*/
+
+.mrg0 {
+  margin: 0;
+}
+
+.mrgT2 {
+  margin-top: 2px;
+}
+
+.mrgT8 {
+  margin: 8px 0 0 0;
+}
+
+.mrgT15 {
+  margin-top: 15px;
+}
+
+.mrgT25 {
+  margin-top: 25px;
+}
+
+.mrgT32 {
+  margin-top: 32px;
+}
+
+.mrgT45 {
+  margin-top: 45px;
+}
+
+.mrgT64 {
+  margin-top: 64px;
+}
+
+.mrgB2 {
+  margin-bottom: 2px;
+}
+
+.mrgB8 {
+  margin-bottom: 8px;
+}
+
+.mrgB16 {
+  margin-bottom: 16px;
+}
+
+.p0 {
+  padding: 0;
+}
+
+.pL16 {
+  padding-left: 16px;
+}
+
+.pT25 {
+  padding-top: 25px;
+}
+
+.pT32 {
+  padding-top: 32px;
+}
+
+.p30 {
+  padding: 30px;
+}
+
+/*
+=================================================================
+Custom Backgrounds
+=================================================================
+*/
+
+.bgndOrange{
+  background-color: #FF9800;
+}
+
+.bgndGrey {
+  background-color: #ddd;
+}
+
+
+.bgndGreen {
+  background-color: #11736ad1;
+  color: #FFF;
+}
+
+.bgndTrans {
+  background-color: transparent;
+}
+
+.bgndWhite {
+  background-color: #FFF;
+}
+
+.bgndNightDark {
+  background-color: #363636;
+}
+
+
+.bgndNightBase {
+  background-color: #6F7675;
+}
+
+.bgndNightLight {
+  background-color: #ebebeb;
+}
+
+.bgndNightBackground {
+  background-color: #F8F8F8;
+}
+
+.bgndForestDark {
+  background-color: #1C4247;
+}
+
+.bgndForestBase {
+  background-color: #295F67;
+}
+
+.bgndForestLight {
+  background-color: #A0BABD;
+}
+
+.bgndForestBackground {
+  background-color: #E8F2F4;
+}
+
+.bgndHoneyDark {
+  background-color: #9B5209;
+}
+
+.bgndHoneyBase {
+  background-color: #D67B1F;
+}
+
+.bgndHoneyLight {
+  background-color: #EABD8F;
+}
+
+.bgndHoneyBackground {
+  background-color: #F6E9DC;
+}
+
+/*
+=================================================================
+Custom Borders
+=================================================================
+*/
+
+.br-50 {
+  border-radius: 50px !important;
+}
+
+.rc-lu {
+  border-radius: 0 0 0 19px;
+  height: 50px;
+  width: 50px;
+}
+
+.rc-lo {
+  border-radius: 50px 0 0 0;
+}
+
+.rc-3 {
+  border-radius: 50px 0 25px 25px;
+}
+
+.btn-rc50 {
+  border-radius: 50px !important;
+}
+
+/*
+=================================================================
+Genral Styles
+=================================================================
+*/
+
+a {
+    color: #D67B1F  !important;
+    text-decoration: none;
+}
+
+.imgContainer img {
+  height: 50vh;
+  margin: auto;
+}
+
+.productRating .glyphicon-star {
+  color: #295F67;
+  font-size: 16px;
+}
+
+.productRating .glyphicon-star-empty {
+  color: #295F67;
+  font-size: 16px;
+}
+
+.productRating p {
+  display: inline;
+  font-weight: 300;
+  font-size: 16px;
+}
+
+.detailBox img {
+  height: 24px;
+  margin: 0 8px 16px 0;
+}
+
+.vorteileBox .icon {
+  width: 16px;
+}
+
+.customThumbnail {
+  display: block;
+  padding: 0;
+  line-height: 1.42857143;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  -webkit-transition: border .2s ease-in-out;
+  -o-transition: border .2s ease-in-out;
+  transition: border .2s ease-in-out;
+}
+
+
+.media {
+  margin-top: 8px;
+}
+
+.cta-primary {
+  text-transform: uppercase;
+  font-size: 18px;
+  padding: 15px 0 15px 0;
+  color: #FFF;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.cta-outlined {
+  text-transform: uppercase;
+  font-size: 18px;
+  padding: 15px;
+  border: 1px solid #295F67;
+  color: #295F67;
+  background-color: transparent;
+}
+
+.brandlogo {
+  max-width: 310px;
+  margin: auto;
+}
+
+
+.productRecoBox {
+  padding-right: 0;
+}
+
+.productRecoBox img {
+  height: 149px;
+  margin: auto;
+  border-radius: 50px 0 0 0;
+}
+
+.productRecoBox h4 {
+  font-size: 16px;
+  font-weight: 400;
+  text-align: center;
+  margin-top: 8px;
+}
+
+.productRecoBox p {
+  font-size: 14px;
+  font-weight: 300;
+  text-align: center;
+  margin: 0;
+}
+
+.labelBox {
+  margin-top: 16px;
+}
+
+.roundLabel {
+  display: inline-block;
+  border-radius: 50px;
+  border: 1px solid #0e6e7d;
+  background: transparent;
+  color: #295F67;
+  font-size: 18px;
+  font-weight: normal;
+  text-align: center;
+  vertical-align: baseline;
+  padding: .2em .6em .3em;
+  white-space: nowrap;
+  margin-bottom: 16px;
+}
+
+
+.articleBody {
+  border-radius: 50px 0 0 0;
+  background-color: #E8F2F4;
+  padding-left: 16px;
+  margin-right: 15px;
+  padding-top: 16px;
+  position: absolute;
+  left: 15px;
+  bottom: -50px;
+}
+
+
+.articleHead {
+  overflow: hidden;
+  height: 274px;
+}

@@ -1,0 +1,118 @@
+/*
+=================================================================
+Custom Margins / Paddings
+=================================================================
+*/
+
+.mrgT15{
+  margin-top: 15px;
+}
+
+.mrgT25 {
+  margin-top: 25px;
+}
+
+.mrgT45 {
+  margin-top: 45px;
+}
+
+.pdL15 {
+  padding-left: 15px;
+}
+
+.pdT25 {
+  padding-top: 15px;
+}
+
+.p30 {
+  padding: 30px;
+}
+
+/*
+=================================================================
+Custom Backgrounds
+=================================================================
+*/
+
+.bgndOrange{
+  background-color: #FF9800;
+}
+
+.bgndGrey {
+  background-color: #ddd;
+}
+
+
+.bgndGreen {
+  background-color: #11736ad1 !important;
+  color: #FFF;
+}
+
+.bgndTrans {
+  background-color: transparent !important;
+}
+
+.bgndWhite {
+  background-color: #FFF !important;
+}
+
+/*
+=================================================================
+Custom Borders
+=================================================================
+*/
+
+.br-50 {
+  border-radius: 50px !important;
+}
+
+.rc-lu {
+  border-radius: 0 0 0 19px;
+  height: 50px;
+  width: 50px;
+}
+
+.rc-lo {
+  border-radius: 50px 0 0 0 !important;
+}
+
+.rc-3 {
+  border-radius: 50px 0 25px 25px;
+}
+
+.btn-rc50 {
+  border-radius: 50px !important;
+}
+
+/*
+=================================================================
+Genral Styles
+=================================================================
+*/
+
+.customThumbnail {
+  display: block;
+  padding: 0;
+  margin-bottom: 20px;
+  line-height: 1.42857143;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  -webkit-transition: border .2s ease-in-out;
+  -o-transition: border .2s ease-in-out;
+  transition: border .2s ease-in-out;
+}
+
+.roundLabel {
+  display: inline;
+  border-radius: 50px;
+  border: 1px solid #0e6e7d;
+  background: transparent;
+  color: #0e6e7d;
+  font-size: 23px;
+  font-weight: normal;
+  text-align: center;
+  ertical-align: baseline;
+  padding: .2em .6em .3em;
+  white-space: nowrap;
+}
